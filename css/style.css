@@ -9,7 +9,20 @@ body {
 a {
     text-decoration: none;
 }
-
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
 .main {
     height: 100%;
     background-image: url("https://media.mnn.com/assets/images/2017/01/cow-in-pasture.jpg.838x0_q80.jpg");
@@ -18,7 +31,22 @@ a {
     width: 30px;
     margin: 15px;
 }
-
+.aboutMain {
+    display: flex;
+}
+.leftPane {
+    font-size: 20px;
+    width: 60%;
+}
 .rightPane {
+    width: 40%;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuIHtvu03pSmm_T0rKckWOQlyNuN6T_gZHRCHWGi0Qf7e46wGnpQ");
+}
+
+.thumbnail {
+    display: block;
+    justify-content: center;
+}
+.thumbnail-image {
+    width: 250px;
 }
